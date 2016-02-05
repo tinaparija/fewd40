@@ -53,7 +53,8 @@ body {
 }
 
 .firstimage{
-  background:url("../images/header.jpg"); 
+  background:url("../images/header.jpg");
+  width:100%;
 }
 
 
