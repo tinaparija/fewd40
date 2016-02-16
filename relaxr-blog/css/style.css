@@ -84,6 +84,7 @@ aside h2{
 hr{
   padding-left:50px;
 }
+
 .categories a{
   margin-top: 16px; 
 }
@@ -106,6 +107,14 @@ footer p{
   font-weight: 300;
   padding-top: 20px;
 }
+
+article p{
+  padding-bottom:20px;
+}
+
+article a{
+  float:right;
+}
 /* layout styles */
 
 header{
@@ -117,18 +126,19 @@ header{
 
 .content{
   width:700px;
-  height:1200px;
   background-color: #f0efef; 
+  height:1400px;
   float:left;
   padding:20px;
 }
 
 article{
   padding:30px;
+
 }
 .sidebar{
   width:240px;
-  height:1200px;
+  height:1400px;
   background-color: #f0efef; 
   float:left;
   padding:50px;
