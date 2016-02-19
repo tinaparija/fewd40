@@ -32,7 +32,7 @@ $(document).ready(function(){
 		$("#button4").hide();
 		}
 
-	function block(){
+	function block(event){
 		event.preventDefault();
 	}
 	})

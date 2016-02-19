@@ -112,32 +112,25 @@ article p{
   padding-bottom:20px;
 }
 
-<<<<<<< HEAD
 #moretext1,#moretext2,#button3, #button4{
   display:none;
 }
 
 article button{
-=======
-article a{
->>>>>>> master
   float:right;
 }
 /* layout styles */
 
 header{
-  width:940px;
+  width:100%;
   height:150px;
   background-color: #033048; 
   padding:50px;
 }
 
 .content{
-  width:700px;
-<<<<<<< HEAD
+  width:70%;
   height:1600px;
-=======
->>>>>>> master
   background-color: #f0efef; 
   height:1400px;
   float:left;
@@ -149,12 +142,9 @@ article{
 
 }
 .sidebar{
-  width:240px;
-<<<<<<< HEAD
+  width:30%;
   height:1600px;
-=======
   height:1400px;
->>>>>>> master
   background-color: #f0efef; 
   float:left;
   padding:50px;
@@ -165,7 +155,7 @@ aside{
 }
 
 section{
-  width:940px;
+  width:100%;
   height:150px;
   background-color: #f9e42e; 
   float:left;
@@ -174,7 +164,7 @@ section{
 }
 
 footer{
-  width:940px;
+  width:100%;
   height:250px;
   background-color: #121212; 
   float:left;
