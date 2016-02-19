@@ -112,7 +112,11 @@ article p{
   padding-bottom:20px;
 }
 
-article a{
+#moretext1,#moretext2,#button3, #button4{
+  display:none;
+}
+
+article button{
   float:right;
 }
 /* layout styles */
@@ -126,6 +130,10 @@ header{
 
 .content{
   width:70%;
+<<<<<<< HEAD
+=======
+  height:1600px;
+>>>>>>> gh-pages
   background-color: #f0efef; 
   height:1400px;
   float:left;
@@ -138,6 +146,10 @@ article{
 }
 .sidebar{
   width:30%;
+<<<<<<< HEAD
+=======
+  height:1600px;
+>>>>>>> gh-pages
   height:1400px;
   background-color: #f0efef; 
   float:left;
