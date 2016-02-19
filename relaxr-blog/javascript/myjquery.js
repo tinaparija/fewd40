@@ -26,8 +26,8 @@ $(document).ready(function(){
 	}
 
 	function hide2(){
-		$("#moretext1").slideUp();
-		$("#moretext1").hide("fast");
+		$("#moretext2").slideUp();
+		$("#moretext2").hide("fast");
 		$("#button2").show();
 		$("#button4").hide();
 		}
