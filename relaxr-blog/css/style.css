@@ -118,14 +118,14 @@ article a{
 /* layout styles */
 
 header{
-  width:940px;
+  width:100%;
   height:150px;
   background-color: #033048; 
   padding:50px;
 }
 
 .content{
-  width:700px;
+  width:70%;
   background-color: #f0efef; 
   height:1400px;
   float:left;
@@ -137,7 +137,7 @@ article{
 
 }
 .sidebar{
-  width:240px;
+  width:30%;
   height:1400px;
   background-color: #f0efef; 
   float:left;
@@ -149,7 +149,7 @@ aside{
 }
 
 section{
-  width:940px;
+  width:100%;
   height:150px;
   background-color: #f9e42e; 
   float:left;
@@ -158,7 +158,7 @@ section{
 }
 
 footer{
-  width:940px;
+  width:100%;
   height:250px;
   background-color: #121212; 
   float:left;
