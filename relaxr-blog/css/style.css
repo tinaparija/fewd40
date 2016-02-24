@@ -130,7 +130,10 @@ header{
 
 .content{
   width:70%;
+<<<<<<< HEAD
+=======
   height:1600px;
+>>>>>>> gh-pages
   background-color: #f0efef; 
   height:1400px;
   float:left;
@@ -143,7 +146,10 @@ article{
 }
 .sidebar{
   width:30%;
+<<<<<<< HEAD
+=======
   height:1600px;
+>>>>>>> gh-pages
   height:1400px;
   background-color: #f0efef; 
   float:left;
