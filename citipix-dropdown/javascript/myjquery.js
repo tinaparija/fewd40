@@ -3,7 +3,7 @@
 $(document).ready(function(){ 
 	 var cities = ['NYC', 'SF','LA','ATX','SYD'];
 	 var options = $('#city-type'); 
-	 $.each(cities, function (val, text) { // For Loop to append options into the dropdown menu
+	 $.each(cities, function (val, text) { // Loop to append options into the dropdown menu
 	 		options.append(
 	 				$('<option></option>').val(val).html(text)); 
 	 }); 
