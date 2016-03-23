@@ -1,0 +1,193 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/*Layout Styles*/
+
+body {
+	background-color: #ffffff;
+	font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color:black;
+	postion:absolute;
+	text-align:center;
+	margin:auto;
+	width:1000px;
+}
+#defaultbox{
+	height:700px;
+	width:700px;
+	font-size:40px;
+	font-weight:bold;
+	color:black;
+	margin:auto;
+	margin-top: 100px;
+	clear:both;
+}
+
+article{
+	height:100%;
+	width:100%;
+}
+
+div{
+	height:100px;
+	width:100px;
+	border-radius: 100%; 
+	margin:40px 0 0px 50px;
+	display:inline-block;
+}
+
+div a {
+	display:inline-block;
+	height:100%;
+	width:100%;
+	border-radius:100%;
+}
+
+.blue{
+	background-color: #004084;
+}
+
+.yellow{
+	background-color: #FFFF33;
+}
+
+.green{
+	background-color: #1A584D;
+}
+
+.maroon{
+	background-color: #8A0829;
+}
+
+.black{
+	background-color: #000000;
+}
+
+section a {
+	height:100%;
+	width:100%;
+	text-decoration: none;
+	color:white;
+	border: 2px solid;
+	background-color: black;
+}
+
+/* Background Animations */ 
+
+.blue_background { 
+	background-color:#002858;
+	animation-name: bluemoves;
+	animation-duration: 5s;	
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+	animation-timing-function: ease;
+	animation-direction: alternate;
+
+}
+
+@keyframes bluemoves {
+	  0%   {background-color: #002858;}
+    25%  {background-color: #013071;}
+    50%  {background-color: #004084;}
+    75%  {background-color: #005399;}
+    100% {background-color: #000;}
+}
+
+.black_background { 
+	background-color: #000000;
+	animation-name: blackmoves;
+	animation-duration: 5s;	
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+}
+
+@keyframes blackmoves {
+	  0%   {background-color: #091219;}
+    25%  {background-color: #0C1825;}
+    50%  {background-color: #1D2733;}
+    75%  {background-color: #3B4651;}
+    100% {background-color: #717275;}
+}
+
+.yellow_background { 
+	background-color:	#FFFF33;
+	animation-name: yellowmoves;
+	animation-duration: 5s;	
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+	animation-timing-function: ease;
+
+}
+
+@keyframes yellowmoves {
+		0%   {background-color: #FFFF66;}
+    25%  {background-color: #FFCC00;}
+    50%  {background-color: #FF9900;}
+    75%  {background-color: #FF9900;}
+}
+
+.maroon_background { 
+	background-color: #FC5935;
+	animation-name: maroonmoves;
+	animation-duration: 5s;	
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+
+}
+
+@keyframes maroonmoves {
+	 	0%   {background-color: #FC5935;}
+    25%  {background-color: #EB3633;}
+    50%  {background-color: #A42957;}
+    75%  {background-color: #442750;}
+}
+
+.green_background { 
+	background-color: #1A584D;
+	animation-name: greenmoves;
+	animation-duration: 5s;	
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+	animation-timing-function: ease;
+}
+
+@keyframes greenmoves {
+	  0%   {background-color: #1A584D;}
+    25%  {background-color: #297767;}
+    50%  {background-color: #468B79;}
+    75%  {background-color: #6AA695;}
+}
+
